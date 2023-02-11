@@ -7,6 +7,9 @@ A keysmash generator with a click-to-copy function using vanilla JavaScript. Thi
 ## To-Dos
 - [x] Get the generator working
 - [x] Click-to-copy function
-- [ ] Fix footer
-    - [ ] Add links: portfolio, github
+- [x] Fix footer
+    - [x] Add links: portfolio, github
+- [ ] Upload to website
+    - [ ] Add live demo link to README.md
 - [ ] Responsiveness
+- [ ] Metadata

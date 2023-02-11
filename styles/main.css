@@ -169,21 +169,39 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-top: 5rem;
 }
 footer .footer-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+footer .footer-container p {
+  font-size: 1.5rem;
+}
+footer .footer-container > p:last-child {
+  margin-top: 2.5rem;
 }
 footer .links {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .links img {
-  height: 10rem;
+footer .links > div {
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 2rem;
 }
-footer p {
-  font-size: 1.5rem;
+footer .links a, footer .links img {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
