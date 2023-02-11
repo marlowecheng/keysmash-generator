@@ -1,5 +1,12 @@
+/* 
+ * Marlowe Cheng
+ * 2023/02/11
+ * 
+ * Random letter generator using arrays and random number generators.
+ * 
+ */
 
-// Button Event
+// Generator Button Event
 var btn = document.querySelector('.btn');
 btn.addEventListener('click', keysmashTime)
 
@@ -28,10 +35,11 @@ function keysmashTime() {
     field.value = output;
 };
 
-// Click to Copy Function
+// Click to Copy Event
 var copyTime = document.querySelector('.output-container');
 copyTime.addEventListener('click', copyKeysmash);
 
+// Click to Copy Function
 function copyKeysmash() {
     document.querySelector('.copy-text').classList.add('hidden');
     field.select();
