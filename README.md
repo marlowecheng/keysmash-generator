@@ -1,0 +1,2 @@
+# keysmash-generator
+ A keysmash generator with a click-to-copy function. This generates a random string of 8 to 25 letters from 'a' to 'l' on the keyboard.
