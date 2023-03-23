@@ -2,3 +2,6 @@
 **/reset.css
 **/reset.css.map
 .gitattributes
+css/main.css.map
+css/main.min.css.map
+css/main.min.css

@@ -84,6 +84,14 @@ input {
   background: none;
 }
 
+input:focus {
+  outline: none;
+}
+
+input::selection {
+  background: #bbdccd;
+}
+
 button {
   font-family: "Ubuntu", sans-serif;
 }

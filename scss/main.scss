@@ -5,6 +5,7 @@ $colour-1: #427A61;
 $colour-2: #FFFAEB;
 $colour-3: #131313;
 $colour-4: #193e2d;
+$colour-5: #bbdccd;
 
 html {
     font-size: 62.5%;
@@ -35,6 +36,14 @@ input {
     text-align: center;
     border: none;
     background: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::selection {
+    background: $colour-5;
 }
 
 button {
