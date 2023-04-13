@@ -14,6 +14,10 @@ html {
 body {
     font-family: 'Ubuntu', sans-serif;
     background: $colour-2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -42,7 +46,7 @@ input:focus {
     outline: none;
 }
 
-input::selection {
+*::selection {
     background: $colour-5;
 }
 
@@ -54,7 +58,7 @@ button {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 85% auto;
-    margin: 10rem 0;
+    width: 100%;
 }
 
 .container {
@@ -96,7 +100,7 @@ button {
 
         p {
             position: absolute;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             margin-left: 1rem;
             transition: .35s ease-in-out;
         }

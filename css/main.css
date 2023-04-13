@@ -60,6 +60,10 @@ html {
 body {
   font-family: "Ubuntu", sans-serif;
   background: #FFFAEB;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -88,7 +92,7 @@ input:focus {
   outline: none;
 }
 
-input::selection {
+*::selection {
   background: #bbdccd;
 }
 
@@ -100,7 +104,7 @@ button {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 85% auto;
-  margin: 10rem 0;
+  width: 100%;
 }
 
 .container {
@@ -137,7 +141,7 @@ button {
 }
 .container .modal p {
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-left: 1rem;
   transition: 0.35s ease-in-out;
 }

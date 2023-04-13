@@ -29,7 +29,7 @@ function keysmashTime() {
         // output += keysList[randomKeys];
         // console.log(output);
 
-        output += keysList[Math.floor(Math.random() * (keysList.length - 1))];
+        output += keysList[Math.floor(Math.random() * (keysList.length))];
     };
 
     field.value = output;
