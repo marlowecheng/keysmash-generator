@@ -162,12 +162,13 @@ button {
   border: 0.2rem solid #427A61;
   border-radius: 1rem;
   padding: 0;
-  background: white;
+  background: #427A61;
+  color: #FFFAEB;
   transition: 0.35s ease-in-out;
 }
 .container .btn:hover {
-  background: #427A61;
-  color: #FFFAEB;
+  background: white;
+  color: #427A61;
   transition: 0.35s ease-in-out;
 }
 
