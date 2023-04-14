@@ -23,12 +23,6 @@ function keysmashTime() {
     var smashLength = Math.floor(Math.random() * (25 - 8)) + 8;
 
     for (let i = 0; i < smashLength; i++) {
-
-        // this didn't work for some reason
-        // var randomKeys = Math.floor(Math.random() * 10);
-        // output += keysList[randomKeys];
-        // console.log(output);
-
         output += keysList[Math.floor(Math.random() * (keysList.length))];
     };
 
